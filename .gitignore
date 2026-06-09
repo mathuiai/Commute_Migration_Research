@@ -1,0 +1,44 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.joblib
+*.pkl
+*.npy
+*.npz
+
+# Satellite imagery (large, not included)
+*.tif
+*.tiff
+
+# Credentials
+*.json
+*.pem
+*.key
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+_legacy/
+progress/
